@@ -1,1 +1,6 @@
+{
+  "features": {
+    "containerd-migration": true
+  }
+}
 
