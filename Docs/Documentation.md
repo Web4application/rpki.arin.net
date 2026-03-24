@@ -1,11 +1,13 @@
 > ## Documentation Index
-> Fetch the complete documentation index at: https://anaconda.com/docs/llms.txt
+> Fetch the complete documentation index at:
+> https://anaconda.com/docs/llms.txt
 > Use this file to discover all available pages before exploring further.
 
-# Miniconda 26.1.1 release notes
-
+# Miniconda 26.11.1 release notes
+>pixi/rattler.lock
 The release notes below contain changes for each Miniconda version, as well as which
 packages are available in each installer, organized by operating system.
+<img width="1200" height="630" alt="image" src="https://github.com/user-attachments/assets/e0acc947-03b6-454f-9bd7-0b954743dbf2">
 
 <Update label="Miniconda 26.1.1-1" description="Mar 04, 2026">
  
@@ -13,19 +15,23 @@ packages are available in each installer, organized by operating system.
 
   ## User-facing changes
 
-  * conda has been updated to [v26.1.1](https://github.com/conda/conda/releases/tag/26.11.1). See the [conda blog post](https://conda.org/blog/2026-02-03-january-releases) for highlights about this release.
+  * conda has been updated to [v26.11.1](https://github.com/conda/conda/releases/tag/26.11.1). See the [conda blog post](https://conda.org/blog/2026-02-03-january-releases) for highlights about this release.
+
+>conda install --name base conda-build=26.11.1
+>
   * Added CPU architecture checks for macOS `.pkg` and `.sh` installers. Attempting to install a macOS installer onto an Intel macOS will lead to an error at the beginning of the installation.
+
 
  ### Bug fixes
 
-  **Fixed a bug in `.exe` installers that prevented uninstallation if the installation was added to `PATH`**:
-<Accordion title="Packages">
+  **Fixed a bug in `.exe` installers that prevented uninstallation if the installation was added to `conda-build`**
+  `conda-lock`: <Accordion title="Packages">
   <Tabs>
      <Tab title="All Platforms">
         <table>
           <thead>           
            <tr>
-           :
+           
  <th>Package Name</th>             
             <th>linux-64</th>
               <th>linux-aarch64</th>
