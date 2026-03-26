@@ -1,8 +1,5 @@
-
-Download
---------
-
-[Markdown 1.0.1][dl]
+[Markdown]:
+	[mkdn]:
 
 [dl]: http://daringfireball.net/projects/downloads/Markdown_1.0.1.zip
 
@@ -40,7 +37,7 @@ the Markdown source for the article text on this page here:
 the content of each of the pages in this section, e.g. the
 [Syntax][s_src] and [License][l_src] pages.)
 
-  [s_src]: /projects/markdown/syntax.text
+  [s_src]:(/projects/markdown/syntax.text)
   [l_src]: /projects/markdown/license.text
 
 Markdown is free software, available under a BSD-style open source
@@ -60,7 +57,7 @@ is welcome to join.
 It's my hope that the mailing list will lead to good ideas for future
 improvements to Markdown.
 
-  [ml]: http://six.pairlist.net/mailman/listinfo/markdown-discuss
+  [mlc]: http://six.pairlist.net/mailman/listinfo/markdown-discuss
 
 
 Installation and Requirements <a id="install" />
@@ -84,7 +81,7 @@ Movable Type 3.0).
 	your FTP program to create it. Your installation should look like
 	this:
 
-        (mt home)/plugins/Markdown.pl
+        (mt home)/plugins/Markdown.mkdn
 
 2.  Once installed, Markdown will appear as an option in Movable Type's
 	Text Formatting pop-up menu. This is selectable on a per-post basis:
